@@ -147,15 +147,7 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 PRODUCT_CHARACTERISTICS := tablet,nosdcard
 
-ifneq ($(filter volantis volantisf, $(TARGET_PRODUCT)),)
-# Wifi-Only overlays.
-DEVICE_PACKAGE_OVERLAYS := \
-    $(LOCAL_PATH)/wifi_only_overlay \
-    $(LOCAL_PATH)/overlay
-else
-DEVICE_PACKAGE_OVERLAYS := \
-    $(LOCAL_PATH)/overlay
-endif
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 PRODUCT_TAGS += dalvik.gc.type-precise
 
