@@ -169,8 +169,9 @@ TARGET_RECOVERY_DEVICE_DIRS += device/htc/flounder
 # MultiROM
 MR_INPUT_TYPE := type_b
 MR_INIT_DEVICES := device/htc/flounder/multirom/mr_init_devices.c
-MR_DPI := hdpi
+#MR_RD_ADDR := 0x11000000
+MR_DPI := xhdpi
 MR_DPI_FONT := 216
-MR_FSTAB := device/htc/flounder/recovery/root/etc/twrp.fstab
+MR_FSTAB := device/htc/flounder/twrp.fstab
 MR_KEXEC_MEM_MIN := 0x85000000
 MR_KEXEC_DTB := true
