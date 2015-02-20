@@ -20,4 +20,5 @@ PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/aosp_flounder32.mk \
 	$(LOCAL_DIR)/aosp_flounder_64_only.mk \
 	$(LOCAL_DIR)/omni_flounder.mk \
-        $(LOCAL_DIR)/omni_flounder_lte.mk
+        $(LOCAL_DIR)/omni_flounder_lte.mk \
+        $(LOCAL_DIR)/omni_flounder32.mk
