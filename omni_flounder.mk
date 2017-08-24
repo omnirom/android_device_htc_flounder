@@ -39,9 +39,9 @@ PRODUCT_MODEL := Nexus 9
 # Fix for vendor / system prop mismatch
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=flounder \
-    BUILD_FINGERPRINT=google/volantis/flounder:7.1.1/N4F26X/3821951:user/release-keys \
-    PRIVATE_BUILD_DESC="volantis-user 7.1.1 N4F26X 3821951 release-keys"
-    BUILD_ID=NMF26X
+    BUILD_FINGERPRINT=google/volantis/flounder:7.1.1/N9F27H/4108833:user/release-keys \
+    PRIVATE_BUILD_DESC="volantis-user 7.1.1 N9F27H/4108833 release-keys"
+    BUILD_ID=N9F27H
 
 # SELinux
 PRODUCT_PROPERTY_OVERRIDES += \
